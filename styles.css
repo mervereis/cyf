@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap");
+
+* {
+  font-family: "Barlow Condensed", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-image: url("images/yesil-bursa.jpg");
+  height: 400px;
+  color: white;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 48px;
+}
+
+.bursaContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 75px;
+  background-color: #1aeca236;
+  padding: 3rem;
+}
+
+.bursaActionItem {
+  width: 300px;
+  height: 300px;
+  border-radius: 5%;
+  color: white;
+  height: auto;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  font-size: 36px;
+}
+
+.images {
+  border-radius: 50%;
+  width: 175;
+  height: 175;
+  display: block;
+  margin: auto;
+}
+
+.informationContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.information {
+  margin-top: 1.5rem;
+  padding: 2rem;
+  font-size: 18px;
+  line-height: 24px;
+  width: 50%;
+}
+
+.infoImage {
+  width: 50%;
+  height: 290px;
+}
